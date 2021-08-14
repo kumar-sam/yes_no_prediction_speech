@@ -1,6 +1,8 @@
-========================================================================
+
+--------------------------------------------------------------------------
     Assignment: Detecting multiple yes/no on a recorded file with yes/no.
-========================================================================
+--------------------------------------------------------------------------
+
 
 Project structure and how to run the project?
 
@@ -14,13 +16,13 @@ from yes_no_data.txt and it will create 2 more files and at the end, output on t
 
 testing1.cpp
     This is the main application source file.
-/////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////// \n
 Dataset:
 we are using a sample file of sir, which has multiple yes/no in the file. It will output the
 start marker, end marker and the yes/no class of the speech.
 
 
-/////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////// \n
 Observations:
 
 1. For Yes File DC Shift is -2 and max value of array is 14763 for normalization.
@@ -29,7 +31,7 @@ Observations:
 - yes: high zcr and high energy compared to previous case
 - no: low zcr and high energy in all case.
 
-/////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////// \n
 Result:
 
 [Ambient Noise] AVG ZCR : 21 AVG STE : 41
@@ -53,4 +55,4 @@ avg_zcr_before: 3, avg_zcr_after: 1 Outcome: No
 1658 1730 Outcome: No
 1867 1937 Outcome: No
 
-/////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////// \n
